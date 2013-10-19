@@ -137,7 +137,7 @@ var escapeString = function(string, data) {
 
 $(document).ready(function() {
   retrieve();
-  // setInterval(retrieve, 2000);
+  setInterval(retrieve, 2000);
 
   $('.msgInput').on('keypress', function(event) {
     if (event.which === 13 && $('.msgInput').val() !== '') {
