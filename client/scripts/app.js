@@ -1,5 +1,5 @@
 // YOUR CODE HERE:
-var useURL = 'classes/messages';
+var useURL = 'http://127.0.0.1:8080/classes/messages';
 
 var chatUser = window.location.search.split('=')[1];
 var _msgResults;
